@@ -1,0 +1,10 @@
+queue_name               = "queueSample"
+sns_topic_arn            = "iot"
+sqs_queue_arn            = "manager"
+lambda_function_name     = "data"
+lambda_handler           = "management"
+lambda_runtime           = "python3.8"
+lambda_timeout           = 10
+lambda_memory_size       = 128
+lambda_execution_role_name = "lambdaRole"
+lambda_zip_file          = "./lambda_src/lambda_function.zip"
